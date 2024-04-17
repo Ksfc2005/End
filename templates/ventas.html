@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas - Mini Market El Edén</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ventas - Mini Market El Edén</h1>
+    </header>
+    <main>
+        <form action="/registrar_venta" method="post">
+            <label for="producto">Producto:</label>
+            <select name="producto" id="producto">
+            </select>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" name="cantidad" id="cantidad" min="1" required>
+            <button type="submit">Registrar Venta</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Mini Market El Edén</p>
+    </footer>
+</body>
+</html>
